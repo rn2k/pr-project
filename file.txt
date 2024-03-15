@@ -1,0 +1,1 @@
+projeyi başlatmak için => npm run watch
