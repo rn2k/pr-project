@@ -3,11 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold ">
-    Hello world!
-  </h1>
+  <!--Header Section-->
+  <header class="bg-white py-6 lg:py-12">
+    <!--Header Container-->
+    <div class="container flex items-center justify-between space-x-10 lg:space-x-20">
+      <!--Logo-->
+      <a href="#"><span class="font-bold pl-8 md:pl-0  ">PR</span> <span class="font-thin">YAZILIM</span></a>
+      <!--Mobile Menu-->
+      <div class="block md:hidden">
+        <div class="space-y-1 cursor-pointer pr-4">
+          <div class="bg-black w-8 h-1 rounded-full"></div>
+          <div class="bg-black w-8 h-1 rounded-full"></div>
+          <div class="bg-black w-8 h-1 rounded-full"></div>
+          
+        </div>
+      </div>
+      
+      <!--Navigation-->
+      <nav class="hidden md:flex justify-between flex-1">
+        <!--Menu-->
+        <div class="flex items-center justify-center space-x-8 lg:space-x-16 text-gray-500">
+          <a href="#">Home</a>
+          <button id="toggleButton">Resources <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+          <a href="#">Pricing</a>
+        </div>
+        <!--Contact Us Button-->
+        <div class="flex items-center justify-end space-x-8 lg:space-x-16">
+          <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap">Contact Us</button>
+        </div>
+      </nav>
+      <div class="border"></div>
+    </div><!--justify start ve end kullanabilirsin-->
+  </header>
+  
+  <!--hidden section tamamlanmadı-->
+  <div class="flex container" id="area" style="display: none;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas odio ut soluta aliquam ipsum molestias magnam nulla inventore laborum.
+  </div>
+
+ <!--hero section-->
+ <section class="text-center">
+  <p class="font-bold pt-8 text-5xl">Beautiful analytics to grow smarter </p>
+  <p class="text-gray-500 text-sm py-8 ">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+  <button class="p-2 rounded-md whitespace-nowrap items-center">Demo</button>
+  <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
+  <!--Hero image-->
+  <img src="images/hero-img.png" alt="Main Image" class="">
+  <p class="text-gray-400 text-center pt-16 text-sm ">Join 4,000+ compaines already growing</p>
+</section>
+
+<section class="pt-16 text-center">
+  <p class="text-pr-purpleB text-sm font-bold ">Features</p>
+  <p class="font-bold pt-8 text-lg">Analytics that feels like it's from the future</p>
+  <p class="text-gray-500 text-sm pt-8">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+</section>
+
+<section class="container">
+  <div class="grid grid-cols-3 justify-center">
+    <div>
+      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+        <i class="fa-regular fa-envelope"></i>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere numquam fuga nihil enim dolorum impedit?</p>
+    </div>
+    <div>
+      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur dolorum voluptatibus cum voluptatum pariatur, officia possimus autem earum nostrum!</p>
+    </div>
+    <div>
+      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+        <i class="fa-solid fa-chart-simple"></i>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur dolorum voluptatibus cum voluptatum pariatur, officia possimus autem earum nostrum!</p>
+  </div>
+</section>
+
+
+
+
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
