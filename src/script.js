@@ -5,3 +5,11 @@ $(document).ready(function(){
         $("#area").toggle();
     });
 });
+
+$(document).ready(function(){
+    // toggleButton adlı butona tıklandığında
+    $("#test").click(function(){
+        // alanın gösterilip gizlenmesi
+        $("#areas").toggle();
+    });
+});

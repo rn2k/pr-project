@@ -17,7 +17,7 @@
     <!--Header Container-->
     <div class="container flex items-center justify-between space-x-10 lg:space-x-20">
       <!--Logo-->
-      <a href="#"><span class="font-bold pl-8 md:pl-0  ">PR</span> <span class="font-thin">YAZILIM</span></a>
+      <a href="#"><span class="font-bold pl-8 md:pl-0 basis-1/3 ">PR</span> <span class="font-thin">YAZILIM</span></a>
       <!--Mobile Menu-->
       <div class="block md:hidden">
         <div class="space-y-1 cursor-pointer pr-4">
@@ -31,13 +31,13 @@
       <!--Navigation-->
       <nav class="hidden md:flex justify-between flex-1">
         <!--Menu-->
-        <div class="flex items-center justify-center space-x-8 lg:space-x-16 text-gray-500">
+        <div class="flex items-center justify-center space-x-8 lg:space-x-16 text-gray-500 basis-1/3">
           <a href="#">Home</a>
           <button id="toggleButton">Resources <i class="fa fa-angle-down" aria-hidden="true"></i></button>
           <a href="#">Pricing</a>
         </div>
         <!--Contact Us Button-->
-        <div class="flex items-center justify-end space-x-8 lg:space-x-16">
+        <div class="flex items-center justify-end space-x-8 lg:space-x-16 basis-1/3">
           <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap">Contact Us</button>
         </div>
       </nav>
@@ -45,55 +45,150 @@
     </div><!--justify start ve end kullanabilirsin-->
   </header>
   
-  <!--hidden section tamamlanmadı-->
-  <div class="flex container" id="area" style="display: none;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas odio ut soluta aliquam ipsum molestias magnam nulla inventore laborum.
+  <!--hidden section-->
+  <div class="flex container text-center" id="area" style="display: none;">
+    <div class="basis-1/4">
+      <h2>Abouth Us</h2>
+      <p>Learn abouth our story and our misson statement.</p>
+    </div>
+    <div class="basis-1/4">
+      <h2>Press</h2>
+      <p>News and wirtings, press releases, and resources.</p>
+    </div>
+    <div class="basis-1/4">
+      <h2>Careers</h2>
+      <p>We're always looking for talented people. Join us!</p>
+    </div>
+    <div class="basis-1/4">
+      <h2>Legal</h2>
+      <p>All the boring stuff that we Dan from legal made us add.</p>
+    </div>
+  </div>
+  <div class="bg-purple-100 h-16 w-auto">
+    <p class="text-pr-purpleB text-center ">Looking for a new career? Get in touch</p>
   </div>
 
  <!--hero section-->
  <section class="text-center">
-  <p class="font-bold pt-8 text-5xl">Beautiful analytics to grow smarter </p>
+  <h1 class="font-bold pt-8">Beautiful analytics to grow smarter </h1>
   <p class="text-gray-500 text-sm py-8 ">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
-  <button class="p-2 rounded-md whitespace-nowrap items-center">Demo</button>
-  <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
+  <div class="space-x-10">
+    <button class="p-2 rounded-md whitespace-nowrap items-center">Demo</button>
+    <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
+  </div>
   <!--Hero image-->
-  <img src="images/hero-img.png" alt="Main Image" class="">
+  <img src="images/asd.png" alt="Main Image" class=" container justify-center items-center">
   <p class="text-gray-400 text-center pt-16 text-sm ">Join 4,000+ compaines already growing</p>
 </section>
 
 <section class="pt-16 text-center">
   <p class="text-pr-purpleB text-sm font-bold ">Features</p>
-  <p class="font-bold pt-8 text-lg">Analytics that feels like it's from the future</p>
+  <h2 class="font-bold pt-8">Analytics that feels like it's from the future</h2>
   <p class="text-gray-500 text-sm pt-8">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
 </section>
 
-<section class="container">
-  <div class="grid grid-cols-3 justify-center">
-    <div>
+
+
+<section class="py-8">
+  <div class="container flex space-x-16"> <!--Content arasındaki boşluk spacex ten geliyor-->
+    
+    <!--Content-->
+    <div class="basis-1/3 text-center">
       <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
         <i class="fa-regular fa-envelope"></i>
       </div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere numquam fuga nihil enim dolorum impedit?</p>
+      <h2>Share team inboxes.</h2>
+      <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
     </div>
-    <div>
+    <div class="basis-1/3 text-center">
       <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-        <i class="fa-solid fa-bolt"></i>
+        <i class="fa-regular fa-envelope"></i>
       </div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur dolorum voluptatibus cum voluptatum pariatur, officia possimus autem earum nostrum!</p>
+      <h2>Deliver instant answer</h2>
+      <p>An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
     </div>
-    <div>
+    <div class="basis-1/3 text-center">
       <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-        <i class="fa-solid fa-chart-simple"></i>
+        <i class="fa-regular fa-envelope"></i>
       </div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur dolorum voluptatibus cum voluptatum pariatur, officia possimus autem earum nostrum!</p>
+      <h2>Menage your team with reports</h2>
+      <p>Measure what matters with Untitled's easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks</p>
+    </div>
   </div>
 </section>
 
+<!--hoverlı section-->
+<section class="flex flex-col">
+  <div class="container group text-center">
+    <h2>Is there a free trial avaliable? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+  <div class="container group text-center pt-5">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+  <div class="container group text-center pt-5">
+    <h2>Can I change my plan later?<button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+  <div class="container group text-center pt-5">
+    <h2>Can other info be added to an invoice? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+  <div class="container group text-center pt-5">
+    <h2>How does billing work? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+  <div class="container group text-center pt-5">
+    <h2>How do I change my account email? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
+      <i class="fa-regular fa-plus"></i>
+    </button></h2>
+    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
+  </div>
+</section>
+
+<!--section startup-->
+  <section class="text-center">
+    <h1 class="font-bold pt-8">Start your free trial</h1>
+    <p class="text-gray-500 text-sm py-8 ">Join over  4,000+ startups already growing with us.</p>
+    <div class="space-x-10">
+      <button class="p-2 rounded-md whitespace-nowrap items-center">Learn more</button>
+      <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
+    </div>
+</section>
 
 
+<!--footer section-->
+
+<section class="flex container py-8">
+  <!--Logo-->
+  <div class="basis-1/3">
+    <a href="#"><span class="font-bold pl-8 md:pl-0 basis-1/3 ">PR</span> <span class="font-thin">YAZILIM</span></a>
+  </div>
+  <!--Others-->
+  <div class="basis-1/3 flex">
+    <div class="basis-1/6">Home</div>
+    <div class="basis-1/6">About Us</div>
+    <div class="basis-1/6">Press</div>
+    <div class="basis-1/6">Careers</div>
+    <div class="basis-1/6">Help</div>
+    <div class="basis-1/6">Privacy</div>
+  </div>
+  <!--2023-->
+  <div class="basis-1/3 text-right">© 2023 Pr Yazılım. All rights reserved.</div>
+</section>
 
 
-</div>
 <script src="script.js"></script>
 </body>
 </html>
