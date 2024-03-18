@@ -7,7 +7,8 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        open: ["Open Sans", "sans-serif"]
+        open: ["Open Sans", "sans-serif"],
+        sans: ['Inter', 'sans-serif'],
       },
       colors:{
         "pr-purpleB": "#7F56D9",

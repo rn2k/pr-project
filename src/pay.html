@@ -13,24 +13,12 @@
 </head>
 <body>
   <!--Header Section-->
-  <header class="py-6 h-20 lg:py-12">
-    <!--Header Container-->
-    <div class="block md:hidden">
-      <div class="space-y-1 cursor-pointer pr-4">
-        <div class="bg-black w-8 h-1 rounded-full"></div>
-        <div class="bg-black w-8 h-1 rounded-full"></div>
-        <div class="bg-black w-8 h-1 rounded-full"></div>
-      </div>
-    </div>
+  <header class="h-20">
     <div class="justify-between">
-
       <div class="container flex items-center justify-between space-x-10 lg:space-x-20">
-        <!--Logo-->
-        <!--Mobile Menu-->
-        
         <!--Navigation-->
         <nav style="padding-top: 18px; padding-bottom: 18px;" class="hidden md:flex justify-between flex-1">
-          <a href="#"><img src="images/pr-yazilim.png" alt=""></a>
+          <a href="index.html"><img src="images/pr-yazilim.png" alt=""></a>
           <!--Menu-->
           <div class="flex items-center justify-center space-x-8 lg:space-x-16 text-gray-500 ">
             <a href="#">Home</a>
@@ -39,8 +27,7 @@
           </div>
           <!--Contact Us Button-->
           <div class="flex items-center justify-end space-x-8 lg:space-x-16">
-            <a href="contact.html"><button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap mb-2">Contact Us</button></a>
-            
+            <a href="contact.html"><button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap mb-2">Contact Us</button></a>  
           </div>
         </nav>
       </div>
@@ -73,20 +60,19 @@
     </div>
   </div>
 
-
   <section class="container flex justify-center">
     <div class="flex flex-col items-start justify-center" style="max-width: 500px;">
         <div class="py-8">
             <div style="padding-top: 64px; " class="flex justify-center ">
                 <a href="#" class="flex items-center bg-purple-50 font-semibold text-pr-purpleB h-6 px-4 mt-4 rounded-full">
-                    <span class="bg-white rounded-full px-3 flex items-center">
+                    <span class="rounded-full px-3 flex items-center">
                         Step 1 
                         <img src="images/check.png" alt="" class="ml-1">
                     </span>
                     <span class="bg-pr-purpleB text-white rounded-full px-3 flex items-center">
                         Step 2 
                     </span>
-                    <span class="text-pr-purpleB bg-white rounded-full px-4">Success</span>
+                    <span class="text-pr-purpleB rounded-full px-4">Success</span>
                 </a>             
             </div>
         </div>
@@ -100,7 +86,7 @@
         <textarea placeholder="Include a message..." class="placeholder-gray-500 placeholder-opacity-75 border-gray-300 border rounded-md px-4 py-2 focus:outline-none focus:border-indigo-500 h-20"></textarea>
         <div class="flex items-center px-20 mt-4 mb-2">
             <input type="checkbox" class="mr-2">
-            <p style="margin-top: 32px; margin-bottom: 32px;">You agree to our friendly <a href="#">privacy policy.</a></p>
+            <p style="margin-top: 32px; margin-bottom: 32px; font-size: 16;" class="text-gray-500">You agree to our friendly <a href="#">privacy policy.</a></p>
         </div>
         <div class="flex">
             <div class="mr-2">
@@ -118,15 +104,8 @@
     </div>
 </section>
 
-
-
-
-
-
-
 <!--footer section-->
-
-<section class="flex container  py-8 sticky bottom-3">
+<section class="flex container  py-8 ">
   <!--Logo-->
   <div class="basis-1/3">
     <a href="#"><img src="images/pr-yazilim.png" alt=""></a>
@@ -147,8 +126,6 @@
 
 <script src="script.js"></script>
 <script src="node_modules/@material-tailwind/html/scripts/collapse.js"></script>
- 
-<!-- from cdn -->
 <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
 </body>
 </html>
