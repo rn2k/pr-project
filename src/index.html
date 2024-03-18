@@ -13,11 +13,11 @@
 </head>
 <body>
   <!--Header Section-->
-  <header class="bg-white py-6 lg:py-12">
+  <header class="bg-pr-grey py-6 h-20 lg:py-12">
     <!--Header Container-->
     <div class="container flex items-center justify-between space-x-10 lg:space-x-20">
       <!--Logo-->
-      <a href="#"><span class="font-bold pl-8 md:pl-0 basis-1/3 ">PR</span> <span class="font-thin">YAZILIM</span></a>
+      <a href="#"><img src="images/pr-yazilim.png" alt=""></a>
       <!--Mobile Menu-->
       <div class="block md:hidden">
         <div class="space-y-1 cursor-pointer pr-4">
@@ -38,7 +38,8 @@
         </div>
         <!--Contact Us Button-->
         <div class="flex items-center justify-end space-x-8 lg:space-x-16 basis-1/3">
-          <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap">Contact Us</button>
+          <a href="contact.html"><button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap">Contact Us</button></a>
+          
         </div>
       </nav>
       <div class="border"></div>
@@ -46,43 +47,55 @@
   </header>
   
   <!--hidden section-->
-  <div class="flex container text-center" id="area" style="display: none;">
+  <div class="flex container text-start px-2 pt-3" id="area" style="display: none;">
     <div class="basis-1/4">
-      <h2>Abouth Us</h2>
-      <p>Learn abouth our story and our misson statement.</p>
+      <h2 class="font-semibold"> <img class="float-start" src="images/flag.png" alt=""> Abouth Us</h2>
+      <p class="text-gray-500">Learn abouth our story and our misson statement.</p>
     </div>
     <div class="basis-1/4">
-      <h2>Press</h2>
-      <p>News and wirtings, press releases, and resources.</p>
+      <h2 class="font-semibold"> <img class="float-start" src="images/comma.png" alt="">Press</h2>
+      <p class="text-gray-500">News and wirtings, press releases, and resources.</p>
     </div>
     <div class="basis-1/4">
-      <h2>Careers</h2>
-      <p>We're always looking for talented people. Join us!</p>
+      <h2 class="font-semibold"> <img class="float-start" src="images/people.png" alt="">Careers</h2>
+      <p class="text-gray-500">We're always looking for talented people. Join us!</p>
     </div>
     <div class="basis-1/4">
-      <h2>Legal</h2>
-      <p>All the boring stuff that we Dan from legal made us add.</p>
+      <h2 class="font-semibold"> <img class="float-start" src="images/file.png" alt="">Legal</h2>
+      <p class="text-gray-500">All the boring stuff that we Dan from legal made us add.</p>
     </div>
   </div>
-  <div class="bg-purple-100 h-16 w-auto">
+  <div class="bg-purple-100 h-6 w-auto">
     <p class="text-pr-purpleB text-center ">Looking for a new career? Get in touch</p>
   </div>
 
  <!--hero section-->
  <section class="text-center">
+  <div class="flex justify-center">
+    <a href="#" class="bg-purple-50 font-semibold  text-pr-purpleB  h-6 w-128  px-4 mt-4 rounded-full"><span class="bg-white rounded-full px-3 justify-start mr-16">New future</span>
+       Check out the team dashboard</a>
+  </div>
   <h1 class="font-bold pt-8">Beautiful analytics to grow smarter </h1>
   <p class="text-gray-500 text-sm py-8 ">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
   <div class="space-x-10">
-    <button class="p-2 rounded-md whitespace-nowrap items-center">Demo</button>
+    <button class="p-2 rounded-md whitespace-nowrap items-center border-solid border-2 border-gray-700"> <i class="fas fa-play-circle mr-2"></i>Demo</button>
     <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
   </div>
   <!--Hero image-->
-  <img src="images/asd.png" alt="Main Image" class=" container justify-center items-center">
+  <img src="images/hero-img.png" alt="Main Image" class=" container justify-center items-center">
   <p class="text-gray-400 text-center pt-16 text-sm ">Join 4,000+ compaines already growing</p>
+  <div class="container flex text-center pt-8">
+    <div class="basis-1/5"><img src="images/layers.png" alt=""></div>
+    <div class="basis-1/5"><img src="images/sisyphus.png" alt=""></div>
+    <div class="basis-1/5"><img src="images/circooles.png" alt=""></div>
+    <div class="basis-1/5"><img src="images/catalog.png" alt=""></div>
+    <div class="basis-1/5"><img src="images/quotient.png" alt=""></div>
+  </div>
+
 </section>
 
 <section class="pt-16 text-center">
-  <p class="text-pr-purpleB text-sm font-bold ">Features</p>
+  <p class="text-pr-purpleB text-sm font-bold pt-10">Features</p>
   <h2 class="font-bold pt-8">Analytics that feels like it's from the future</h2>
   <p class="text-gray-500 text-sm pt-8">Powerful, self-serve product and growth analytics to help you corvert, engage, and retain more users. Trusted by over 4,000 startups.</p>
 </section>
@@ -94,22 +107,22 @@
     
     <!--Content-->
     <div class="basis-1/3 text-center">
-      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-        <i class="fa-regular fa-envelope"></i>
+      <div class=" justify-center items-center flex">
+        <img class="" src="images/message.png" alt="">
       </div>
       <h2>Share team inboxes.</h2>
       <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
     </div>
     <div class="basis-1/3 text-center">
-      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-        <i class="fa-regular fa-envelope"></i>
+      <div class=" justify-center items-center flex">
+        <img class="" src="images/deliver-instant.png" alt="">
       </div>
       <h2>Deliver instant answer</h2>
       <p>An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
     </div>
     <div class="basis-1/3 text-center">
-      <div class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-        <i class="fa-regular fa-envelope"></i>
+      <div class=" justify-center items-center flex">
+        <img class="" src="images/statistic.png" alt="">
       </div>
       <h2>Menage your team with reports</h2>
       <p>Measure what matters with Untitled's easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks</p>
@@ -117,54 +130,151 @@
   </div>
 </section>
 
-<!--hoverlı section-->
-<section class="flex flex-col">
-  <div class="container group text-center">
-    <h2>Is there a free trial avaliable? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-  <div class="container group text-center pt-5">
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-  <div class="container group text-center pt-5">
-    <h2>Can I change my plan later?<button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-  <div class="container group text-center pt-5">
-    <h2>Can other info be added to an invoice? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-  <div class="container group text-center pt-5">
-    <h2>How does billing work? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-  <div class="container group text-center pt-5">
-    <h2>How do I change my account email? <button id="test" class="flex h-8 w-8 text-center justify-center items-center rounded-full bg-pr-purpleL text-pr-purpleB">
-      <i class="fa-regular fa-plus"></i>
-    </button></h2>
-    <p class="opacity-0 group-hover:opacity-100 duration-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate beatae officiis iure! Commodi distinctio recusandae officiis, possimus voluptate incidunt! </p>  
-  </div>
-</section>
-
 <!--section startup-->
-  <section class="text-center">
+  <section class="text-center bg-gray-50">
     <h1 class="font-bold pt-8">Start your free trial</h1>
     <p class="text-gray-500 text-sm py-8 ">Join over  4,000+ startups already growing with us.</p>
     <div class="space-x-10">
-      <button class="p-2 rounded-md whitespace-nowrap items-center">Learn more</button>
+      <button class="p-2 rounded-md whitespace-nowrap items-center border-solid border-2 border-gray-300">Learn more</button>
       <button class="text-white bg-pr-purpleB p-2 rounded-md whitespace-nowrap  ">Contact Us</button>
     </div>
+</section>
+
+<!--accordion -->
+
+<section class="container text-center">
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-1"
+      >
+        <span>Is there a free trial avaliable?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-1"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-2"
+      >
+        <span>Can I change my plan later?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-2"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-3"
+      >
+        <span>Can other info be added to an invoice?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-3"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-4"
+      >
+        <span>How does billing work?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-4"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-5"
+      >
+        <span>How does billing work?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-5"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-3">
+    <h6 class="mb-0">
+      <button
+        class="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
+        data-collapse-target="collapse-6"
+      >
+        <span>How do I change my account email?</span>
+        <i class="absolute right-0 pt-1 text-xs fa fa-plus group-open:opacity-0"></i>
+        <i class="absolute right-0 pt-1 text-xs opacity-0 fa fa-minus group-open:opacity-100"></i>
+      </button>
+    </h6>
+    <div
+      data-collapse="collapse-6"
+      class="h-0 overflow-hidden transition-all duration-300 ease-in-out"
+    >
+      <div class="p-4 text-sm leading-normal text-blue-gray-500">
+        We're not always in the position that we want to be at. We're constantly
+        growing. We're constantly making mistakes. We're constantly trying to
+        express ourselves and actualize our dreams.
+      </div>
+    </div>
+  </div>
 </section>
 
 
@@ -173,10 +283,10 @@
 <section class="flex container py-8">
   <!--Logo-->
   <div class="basis-1/3">
-    <a href="#"><span class="font-bold pl-8 md:pl-0 basis-1/3 ">PR</span> <span class="font-thin">YAZILIM</span></a>
+    <a href="#"><img src="images/pr-yazilim.png" alt=""></a>
   </div>
   <!--Others-->
-  <div class="basis-1/3 flex">
+  <div class="basis-1/3 flex text-gray-700">
     <div class="basis-1/6">Home</div>
     <div class="basis-1/6">About Us</div>
     <div class="basis-1/6">Press</div>
@@ -185,10 +295,14 @@
     <div class="basis-1/6">Privacy</div>
   </div>
   <!--2023-->
-  <div class="basis-1/3 text-right">© 2023 Pr Yazılım. All rights reserved.</div>
+  <div class="basis-1/3 text-right text-gray-500">© 2023 Pr Yazılım. All rights reserved.</div>
 </section>
 
 
 <script src="script.js"></script>
+<script src="node_modules/@material-tailwind/html/scripts/collapse.js"></script>
+ 
+<!-- from cdn -->
+<script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
 </body>
 </html>
